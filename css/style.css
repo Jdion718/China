@@ -1,0 +1,79 @@
+body{
+    background: black;
+
+}
+  
+header{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%
+}
+
+nav{
+    background: grey;
+    text-align: center;
+   
+    
+}
+nav a{    
+    color: black;
+    display: inline;
+    
+
+}
+nav a:hover{
+    color: #8c0019;
+}
+H1{
+    font-family: 'Russo One', sans-serif;
+    Color: #8c0019;
+    text-align: center;
+}
+
+H3{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+H4{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.special{
+    color:white;
+    font-family: arial;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+li{
+    color: white;
+    text-align: center;
+}
+
+
+.contact{
+    color: white;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+Footer{
+    text-align: center;
+    background: #fdd35f;
+    color: black;
+    display: block;
+   
+}
+
