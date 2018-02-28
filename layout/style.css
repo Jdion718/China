@@ -26,6 +26,7 @@ header {
 }
 
 nav{
+    display: flex;
     color: white;
     background: grey;
     text-align: center;
