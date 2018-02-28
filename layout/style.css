@@ -11,7 +11,9 @@ body{
     display: flex;
     flex-direction: column;
 }
-  
+
+
+}
 header {
     width: 100vw;
     height: 50vh;
@@ -27,9 +29,15 @@ nav{
     color: white;
     background: grey;
     text-align: center;
-   
     
 }
+
+@media screen and (min-width: 701px) {
+  nav {
+    text-align: right;
+  }
+}
+
 nav a{    
     color: black;
     font-size: 3rem;
