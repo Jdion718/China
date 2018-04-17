@@ -6,17 +6,15 @@ body {
 
 
 main {
-    background-color:#FAF3DD
+    background-color:#FAF3DD;
 }
 
 #navbar {
-    background-color: #70161E
+    background-color: #70161E;
 }
 
-
-
-#title {
-    background-color: #70161E
+.title {
+    background-color: #70161E;
 }
 
 #page {
@@ -26,8 +24,24 @@ main {
 
 h3 {
     font-family: 'Kaushan Script', cursive;
-    color: #70161E
+    color: #70161E;
 }
+
+.gallary {
+    width: 33.33%;
+    padding: 5px;
+}
+
+#gallary {
+    background-color: #FAF3DD
+}
+
+
+.modal-header{
+    background-color: #70161E;
+    color: white; 
+}
+
 
 .my-circle {
     border-radius: 50%;
