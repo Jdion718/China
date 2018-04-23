@@ -1,0 +1,72 @@
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: repeat;
+    background-color: #cccccc;
+}
+
+
+main {
+    background-color:#FAF3DD;
+}
+
+#navbar {
+    background-color: #70161E;
+}
+
+.title {
+    background-color: #70161E;
+}
+
+#page {
+    font-family: 'Noto Sans', sans-serif;
+    color: #424B54
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #70161E;
+}
+
+.gallary {
+    width: 33.33%;
+    padding: 5px;
+}
+
+#gallary {
+    background-color: #FAF3DD
+}
+
+
+.modal-header{
+    background-color: #70161E;
+    color: white; 
+}
+
+
+.my-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: 0.2s;  
+    animation-name: cirlce
+}
+
+.my-circle:hover {
+    transform: rotate(20deg);
+    box-shadow: 0px 0px 15px #444444;
+    cursor: pointer
+}
+
+@keyframes slideIn {
+    from {transform: translateY(800px);}
+    to {transform: translateY(0);}
+}
+
+.slideIn{
+    animation: slideIn 1s linear;
+}
+
+
+footer {
+    background-color: #70161E
+}
